@@ -1,0 +1,82 @@
+.experience-section {
+    position: relative;
+    background-image: url('/banners/legacy-montdesign.png');
+    /* Usa una imagen de taller de carpintería */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.experience-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* Capa oscura para resaltar texto */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-content {
+    max-width: 800px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.experience-content h2 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.experience-content p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.btn-conocenos {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: white;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-conocenos:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .experience-content h2 {
+        font-size: 3.1rem;
+        font-weight: 700;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .video-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: white;
+        text-align: center;
+        padding: 0 0rem;
+        width: 100vh;
+    }
+
+}

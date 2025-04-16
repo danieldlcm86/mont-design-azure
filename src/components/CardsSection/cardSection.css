@@ -1,0 +1,37 @@
+.grid-servicios {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 40px 10px;
+    justify-content: center;
+}
+
+.card-servicio:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .grid-servicios {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .card-servicio h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-servicio p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-servicio img {
+        height: 160px;
+    }
+
+    .card-servicio {
+        padding: 0.8rem;
+    }
+}
